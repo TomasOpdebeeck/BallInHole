@@ -1,0 +1,51 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #afcbaa;
+	height: 100%;
+}
+
+                            #fullscreenButton {
+                                position: absolute;
+                                right: 10px;
+                                top: 5px;
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                font-weight: 300;
+                                font-size: 22px;
+                                color: #ff0000;
+                            }
+							
+							#scherm canvas {
+								background-color: #afcbbb;
+								height: 85%;
+							}
+							
+							button{
+								-webkit-appearance: none;
+								width:33%;
+								height:100%;
+								background-color: #afcccc;
+								font-size: 48px;
+								height: 15%;
+							}	
+							
+							textarea{
+								-webkit-appearance: none;
+								display: block;
+								width:50%;
+								height:90%;
+								text-align: center;
+								background-color: #afcccc;
+								font-size: 24px; 
+								margin-left: auto;
+								margin-right: auto;
+							}	
+							
+							.extra {
+								background-color: #afcccc;
+								//height: 15%;
+							}
+							
+							
+							
